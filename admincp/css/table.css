@@ -1,0 +1,14 @@
+/* CSS Document */
+
+#custom{
+	border-collapse:collapse;
+	}
+#custom tr{
+	border: 1px solid #009;
+	}
+#custom td{
+	padding-left:10px;
+}
+#custom tr.doimaunen{
+	background-color:#FFF;
+}

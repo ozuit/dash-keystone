@@ -1,0 +1,80 @@
+@import url("table.css");
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#menu {
+	height: 500px;
+	width: 12%;
+	background-color: #E8E8E8;
+	float: left;
+}
+#content {
+	float: right;
+	height: auto;
+	width: 87%;
+	background-color: #CCC;
+}
+#footer {
+	background-color: #333;
+	height: 150px;
+	width: 100%;
+	margin-top: 15px;
+}
+#banner {
+	background-color: #666;
+	height: 50px;
+	width: 100%;
+	margin-bottom: 10px;
+	text-align:center;
+	color:#FF8000;
+	    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+div.xoa{
+	clear: both;
+	}
+div#box-chucnang{
+	width: auto;
+	height: 55px;
+	background-color: inherit;
+	padding: 10px;
+	text-align:center;
+	}
+div#box-chucnang:hover{
+	
+	border: 1px solid #CCC;
+	}
+#menu a{
+	text-decoration:none;
+	color:#000;
+	}
+div.left, div.right{
+	width: 100%;
+	float:left;
+	}
+div.left{
+	
+	margin-left:20px;
+	margin-bottom:5px;
+	}
+div.right{
+	float:left;
+	margin-left:5px;
+	margin-bottom:5px;
+	}
+div.login{
+	margin-left:auto;
+	margin-right:auto;
+	width: 422px;
+	margin-top:150px;
+	}
+.chuahotro{
+	padding: 50px;
+	}
